@@ -48,8 +48,8 @@
 
     <p>Welcome to the Apache Shiro Tutorial Webapp.  This page represents the home page of any web application.</p>
 
-    <shiro:authenticated><p>Visit your <a href="<c:url value="/account"/>">account page</a>.</p></shiro:authenticated>
-    <shiro:notAuthenticated><p>If you want to access the authenticated-only <a href="<c:url value="/account"/>">account page</a>,
+    <shiro:authenticated><p>Visit your <a href="<c:url value="/account/index.jsp"/>">account page</a>.</p></shiro:authenticated>
+    <shiro:notAuthenticated><p>If you want to access the authenticated-only <a href="<c:url value="/account/index.jsp"/>">account page</a>,
         you will need to log-in first.</p></shiro:notAuthenticated>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
