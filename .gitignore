@@ -3,3 +3,5 @@
 *.iws
 .idea/
 target/
+src/main/webapp/home_.jsp
+src/main/webapp/WEB-INF/shiro_.ini
